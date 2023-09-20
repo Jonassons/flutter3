@@ -48,7 +48,8 @@ class _Page1State extends State<Page1> {
       appBar: AppBar(
         title: Text('Page 1'),
       ),
-      body: Center(
+      body: SingleChildScrollView(
+        child: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
@@ -89,6 +90,7 @@ class _Page1State extends State<Page1> {
               ),
             ),
           ],
+        )
         ),
       ),
     );
